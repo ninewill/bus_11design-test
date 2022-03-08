@@ -424,7 +424,8 @@ textarea::placeholder {
   color: #9ca3af;
 }
 
-button {
+button,
+[role="button"] {
   cursor: pointer;
 }
 
@@ -517,8 +518,24 @@ video {
   height: auto;
 }
 
+.flex {
+  display: flex;
+}
+
 .table {
   display: table;
+}
+
+.hidden {
+  display: none;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.fixed {
+  position: fixed;
 }
 
 .resize {
